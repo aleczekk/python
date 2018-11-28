@@ -1,0 +1,12 @@
+num = int(input('Please enter a number: '))
+check = int(input('Please enter devider: '))
+if num % 4 == 0:
+    print('Number', num, 'is a multiple of 4')
+    if num % 2 == 0:
+        print('Number ' + str(num) + ' is even')
+else:
+    print('Number', num, 'is an odd')
+if num % check == 0:
+    print('Number', num, 'is divisible by', check)
+else:
+    print('Number', num, 'is not divisible', check)
