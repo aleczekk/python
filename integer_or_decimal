@@ -1,0 +1,7 @@
+k = input('Enter number: ')
+print(k)
+print(type(k))
+if float(k) % 1 == 0:  # check if the reminder is different than 0
+    print('it is an integer')
+else:
+    print('it is a decimal')
